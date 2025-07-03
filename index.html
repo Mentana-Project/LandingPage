@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentana</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 🔵 HEADER -->
+  <header class="navbar">
+    <div class="container">
+      <img src="assets/logo.png" alt="Mentana Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#profesionales">Profesionales</a></li>
+          <li><a href="#funciona">¿Cómo funciona?</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contáctanos</a></li>
+          <li><a class="btn btn-crear" href="#">Crear cuenta</a></li>
+          <li><a class="btn btn-ingresar" href="#">Ingresar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🟢 HERO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Encuentra apoyo emocional con solo un clic</h1>
+        <p>Conecta con psicólogos certificados y agenda tu primera cita desde la comodidad de tu casa.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-crear">Agendar una cita</a>
+          <a href="#profesionales" class="btn btn-ingresar">Ver profesionales</a>
+        </div>
+      </div>
+      <img src="assets/llamada.png" alt="Videollamada con psicóloga" class="hero-img" />
+    </div>
+  </section>
+
+  <!-- 🧠 PROFESIONALES -->
+  <section class="profesionales" id="profesionales">
+    <div class="container">
+      <h2>Psicólogos y terapeutas disponibles para ti</h2>
+      <div class="cards-container">
+        <!-- 6 tarjetas de ejemplo -->
+        <div class="card">
+            <img src="assets/persona 1.png" alt="Profesional" />
+            <h4>Lic. Alejandra Torres</h4>
+            <p>Psicología Clínica</p>
+            <div class="rating">★★★★★</div>
+        </div>
+        <div class="card">
+            <img src="assets/persona 2.png" alt="Profesional" />
+            <h4>Mtra. Lucía Fernández</h4>
+            <p>Terapia Gestalt</p>
+            <div class="rating">★★★★★</div>
+          </div>
+        <div class="card">
+            <img src="assets/persona 3.png" alt="Profesional" />
+            <h4>Lic. Alejandro Vargas</h4>
+            <p>Psicología Humanista - Adulto jovenes</p>
+            <div class="rating">★★★★★</div>
+        </div>
+        <div class="card">
+            <img src="assets/persona 4.png" alt="Profesional" />
+            <h4>Lic. Camila Espinoza</h4>
+            <p>Psicología Infantil y Familiar</p>
+            <div class="rating">★★★★★</div>
+        </div>
+        <div class="card">
+            <img src="assets/persona 5.png" alt="Profesional" />
+            <h4>Dr. Pablo Rivas</h4>
+            <p>Psicoterapia Psicoanalítica</p>
+            <div class="rating">★★★★★</div>
+        </div>
+        <!-- Repite 5 veces o genera dinámicamente -->
+        <!-- ... -->
+      </div>
+      <a href="#" class="btn btn-explorar"><i class="bi bi-person"></i> Explorar más terapeutas</a>
+    </div>
+  </section>
+
+  <!-- ❓ CÓMO FUNCIONA -->
+  <section class="funciona" id="funciona">
+    <div class="container funciona-content">
+      <div class="texto">
+        <h2>¿Cómo funciona?</h2>
+        <p>Agendar una sesión nunca fue tan fácil. En solo unos pasos podrás encontrar al profesional ideal para ti y comenzar tu proceso de bienestar emocional:</p>
+        <ol>
+          <li>Regístrate con tu correo o número.</li>
+          <li>Elige un profesional según tus necesidades.</li>
+          <li>Agenda tu cita en el horario que más te acomode.</li>
+          <li>Conéctate por videollamada o presencial, según tu preferencia.</li>
+        </ol>
+        <a class="btn btn-crear" href="#">Más info</a>
+      </div>
+      <img src="assets/comofunciona.png" alt="Ilustración de videollamada" class="funciona-img" />
+    </div>
+  </section>
+
+  <!-- 💬 TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <h2>Testimonios</h2>
+      <div class="cards-testimonios">
+        <div class="card-testimonio">
+            <img src="assets/testimonio 2.jpg" alt="María Lau" />
+            <h4>María Lau</h4>
+            <span>04 de abril del 2025</span>
+            <p>Gracias a esta plataforma encontré una terapeuta que realmente me entiende. Me siento más tranquila y acompañada en este proceso. Agendar fue súper fácil y seguro</p>
+        </div>
+        <div class="card-testimonio">
+            <img src="assets/testimonio 1.jpg" alt="María Lau" />
+            <h4>Jorge Sanchez</h4>
+            <span>23 de abril del 2025</span>
+            <p>Nunca pensé que una consulta online me ayudaría tanto. Mi ansiedad ha disminuido bastante desde que comencé mis sesiones. Excelente servicio y atención.</p>
+        </div>
+        <div class="card-testimonio">
+            <img src="assets/testimonio 3.jpg" alt="María Lau" />
+            <h4>Carlos Zapata</h4>
+            <span>27 de abril del 2025</span>
+            <p>Llevaba meses postergando mi salud emocional. Esta app me dio el empujón que necesitaba. Ahora tengo citas semanales y realmente estoy viendo cambios.</p>
+        </div>
+      </div>
+      <p class="mensaje-final">
+        Las personas están en el centro de todo lo que hacemos. Ver a nuestros usuarios dar el primer paso hacia su bienestar emocional es lo que nos inspira a seguir mejorando. Estos testimonios nos recuerdan que nadie está solo: pedir ayuda es un acto de valentía. Juntos, podemos construir una vida con más calma, comprensión y salud mental.
+      </p>
+    </div>
+  </section>
+
+  <!-- 📬 NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <h3>Recibe consejos para tu bienestar emocional directamente en tu correo</h3>
+      <form class="form-newsletter">
+        <input type="email" placeholder="Correo electrónico" required />
+        <button type="submit"><i class="bi bi-send-fill"></i></button>
+      </form>
+      <label><input type="checkbox" required /> He leído y aceptado los términos y condiciones</label>
+    </div>
+  </section>
+
+  <!-- ⚙️ FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <p>Plataforma digital dedicada a facilitar el acceso a servicios de salud mental. Conectamos a personas con profesionales certificados, promoviendo el bienestar emocional de manera segura, confidencial y accesible</p>
+      </div>
+      <div class="footer-col">
+        <h4>Soporte</h4>
+        <ul>
+          <li><a href="#">Contacto y Soporte</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Foro</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contáctanos</h4>
+        <p>Av. Caminos del Inca 2146, Surco, Lima, Perú<br/>+51 992 800 111</p>
+      </div>
+      <div class="footer-col">
+        <h4>Redes Sociales</h4>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2025 - Mentana</p>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
